@@ -1,198 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoleCraft Designs | Official Store</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #0f0f0f;
-            color: #ffffff;
-            padding-bottom: 60px;
-            text-align: center;
-        }
-        header {
-            padding: 60px 20px;
-            background: #161616;
-            border-bottom: 1px solid #222;
-        }
-        h1 {
-            font-size: 2.8rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            font-size: 1.1rem;
-            color: #888;
-            text-transform: uppercase;
-        }
-        .store-container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        .product-card {
-            background: #161616;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid #222;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .product-image {
-            width: 100%;
-            height: 320px;
-            background: #222;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-        .product-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .product-info {
-            padding: 25px;
-            text-align: left;
-        }
-        .product-title {
-            font-size: 1.4rem;
-            margin-bottom: 8px;
-        }
-        .product-tag {
-            font-size: 0.8rem;
-            color: #aaa;
-            text-transform: uppercase;
-            background: #222;
-            padding: 4px 10px;
-            border-radius: 4px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        .product-description {
-            font-size: 0.95rem;
-            color: #aaa;
-            line-height: 1.5;
-            margin-bottom: 25px;
-        }
-        .checkout-redirect-btn {
-            display: block;
-            width: 100%;
-            background-color: #ffffff;
-            color: #0f0f0f;
-            text-align: center;
-            padding: 15px;
-            font-size: 1rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background 0.2s;
-        }
-        .checkout-redirect-btn:hover {
-            background-color: #e0e0e0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoleCraft Designs | Official Store</title>
+  <meta name="description" content="SoleCraft Designs - Handcrafted luxury footwear custom-made by Italian master artisans.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      padding-bottom: 60px;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+      background: #161616;
+      border-bottom: 1px solid #222;
+    }
+    h1 {
+      font-size: 2.8rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: #888;
+      text-transform: uppercase;
+    }
+    .store-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background: #161616;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .product-image {
+      width: 100%;
+      height: 320px;
+      background: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 25px;
+      text-align: left;
+    }
+    .product-title {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+    .product-tag {
+      font-size: 0.8rem;
+      color: #aaa;
+      text-transform: uppercase;
+      background: #222;
+      padding: 4px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    .product-description {
+      font-size: 0.95rem;
+      color: #aaa;
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+    .checkout-redirect-btn {
+      display: block;
+      width: 100%;
+      background-color: #ffffff;
+      color: #0f0f0f;
+      text-align: center;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .checkout-redirect-btn:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>SoleCraft Designs</h1>
-        <p class="subtitle">Handcrafted Luxury Footwear • Made in Italy</p>
-    </header>
+  <header>
+    <h1>SoleCraft Designs</h1>
+    <p class="subtitle">Handcrafted Luxury Footwear • Made in Italy</p>
+  </header>
 
-    <div class="store-container">
-        <div class="product-grid">
-            
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side(2).jpg" alt="SoleCraft Designs 2 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">Signature Edition</span>
-                    <h2 class="product-title">SoleCraft Designs 2</h2>
-                    <p class="product-description">Custom designer footwear handcrafted by Italian master artisans. Features a timeless aesthetic with superior materials and comfort.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-2" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
+  <div class="store-container">
+    <div class="product-grid">
 
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side(3.jpg" alt="SoleCraft Designs 5 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">Luxury Release</span>
-                    <h2 class="product-title">SoleCraft Designs 5</h2>
-                    <p class="product-description">An elegant custom style boasting unparalleled Italian craftsmanship. Perfectly balanced structure designed for everyday luxury.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-5" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side 4.jpg" alt="SoleCraft Designs 9 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">New Release</span>
-                    <h2 class="product-title">SoleCraft Designs 9</h2>
-                    <p class="product-description">Freshly drafted custom design meticulously crafted with premium materials. A perfect statement piece for modern luxury fashion.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-9" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side 5.jpg" alt="SoleCraft Designs 11 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">Limited Release</span>
-                    <h2 class="product-title">SoleCraft Designs 11</h2>
-                    <p class="product-description">Custom high-top concept built to stand out. Hand-constructed with absolute precision using top-tier Italian craft elements.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-11" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side 6.jpg" alt="SoleCraft Designs 14 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">Exclusive Design</span>
-                    <h2 class="product-title">SoleCraft Designs 14</h2>
-                    <p class="product-description">A striking modern premium luxury look. Engineered for high fashion and meticulous long-lasting performance.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-14" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="SoleCraft Designs-shoes-side 1.jpg" alt="SoleCraft Designs 21 custom sneaker">
-                </div>
-                <div class="product-info">
-                    <span class="product-tag">Premium Concept</span>
-                    <h2 class="product-title">SoleCraft Designs 21</h2>
-                    <p class="product-description">The pinnacle addition to the luxury collection. Sleek lines combined with high-end luxury artisan finishes.</p>
-                    <a href="https://www.aliveshoes.com/solecraft-designs-21" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
-                </div>
-            </div>
-
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side(2).jpg" alt="SoleCraft Designs 2 custom sneaker">
         </div>
+        <div class="product-info">
+          <span class="product-tag">Signature Edition</span>
+          <h2 class="product-title">SoleCraft Designs 2</h2>
+          <p class="product-description">Custom designer footwear handcrafted by Italian master artisans. Features a timeless aesthetic with superior materials and comfort.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-2" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side(3.jpg" alt="SoleCraft Designs 5 custom sneaker">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Luxury Release</span>
+          <h2 class="product-title">SoleCraft Designs 5</h2>
+          <p class="product-description">An elegant custom style boasting unparalleled Italian craftsmanship. Perfectly balanced structure designed for everyday luxury.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-5" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side 4.jpg" alt="SoleCraft Designs 9 custom sneaker">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">New Release</span>
+          <h2 class="product-title">SoleCraft Designs 9</h2>
+          <p class="product-description">Freshly drafted custom design meticulously crafted with premium materials. A perfect statement piece for modern luxury fashion.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-9" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side 5.jpg" alt="SoleCraft Designs 11 custom sneaker">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Limited Release</span>
+          <h2 class="product-title">SoleCraft Designs 11</h2>
+          <p class="product-description">Custom high-top concept built to stand out. Hand-constructed with absolute precision using top-tier Italian craft elements.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-11" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side 6.jpg" alt="SoleCraft Designs 14 custom sneaker">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Exclusive Design</span>
+          <h2 class="product-title">SoleCraft Designs 14</h2>
+          <p class="product-description">A striking modern premium luxury look. Engineered for high fashion and meticulous long-lasting performance.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-14" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="SoleCraft Designs-shoes-side 1.jpg" alt="SoleCraft Designs 21 custom sneaker">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Premium Concept</span>
+          <h2 class="product-title">SoleCraft Designs 21</h2>
+          <p class="product-description">The pinnacle addition to the luxury collection. Sleek lines combined with high-end luxury artisan finishes.</p>
+          <a href="https://www.aliveshoes.com/solecraft-designs-21" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
+        </div>
+      </div>
+
     </div>
+  </div>
 
 </body>
 </html>
