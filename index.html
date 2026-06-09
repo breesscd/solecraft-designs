@@ -5,33 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoleCraft Designs | Official Store</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-        body { background-color: #0f0f0f; color: #ffffff; padding-bottom: 60px; text-align: center; }
-        header { padding: 60px 20px; background: #161616; border-bottom: 1px solid #222; }
-        h1 { font-size: 2.8rem; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 10px; }
-        .subtitle { font-size: 1.1rem; color: #888; text-transform: uppercase; }
-        .store-container { max-width: 1200px; margin: 50px auto; padding: 0 20px; }
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
-        .product-card { background: #161616; border-radius: 12px; overflow: hidden; border: 1px solid #222; display: flex; flex-direction: column; justify-content: space-between; }
-        .product-image { width: 100%; height: 320px; background: #222; }
-        .product-image img { width: 100%; height: 100%; object-fit: cover; }
-        .product-info { padding: 25px; text-align: left; }
-        .product-title { font-size: 1.4rem; margin-bottom: 8px; }
-        .product-tag { font-size: 0.8rem; color: #aaa; text-transform: uppercase; background: #222; padding: 4px 10px; border-radius: 4px; display: inline-block; margin-bottom: 15px; }
-        .product-description { font-size: 0.95rem; color: #aaa; line-height: 1.5; margin-bottom: 25px; }
-        .checkout-redirect-btn { display: block; width: 100%; background-color: #ffffff; color: #0f0f0f; text-align: center; padding: 15px; font-size: 1rem; font-weight: bold; text-transform: uppercase; text-decoration: none; border-radius: 6px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        header {
+            padding: 60px 20px;
+            background: #161616;
+            border-bottom: 1px solid #222;
+        }
+        h1 {
+            font-size: 2.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .store-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        .product-card {
+            background: #161616;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #222;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .product-image {
+            width: 100%;
+            height: 320px;
+            background: #222;
+        }
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 25px;
+            text-align: left;
+        }
+        .product-title {
+            font-size: 1.4rem;
+            margin-bottom: 8px;
+        }
+        .product-tag {
+            font-size: 0.8rem;
+            color: #aaa;
+            text-transform: uppercase;
+            background: #222;
+            padding: 4px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .product-description {
+            font-size: 0.95rem;
+            color: #aaa;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .checkout-redirect-btn {
+            display: block;
+            width: 100%;
+            background-color: #ffffff;
+            color: #0f0f0f;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .checkout-redirect-btn:hover {
+            background-color: #e0e0e0;
+        }
     </style>
 </head>
 <body>
+
     <header>
         <h1>SoleCraft Designs</h1>
         <p class="subtitle">Handcrafted Luxury Footwear • Made in Italy</p>
     </header>
+
     <div class="store-container">
         <div class="product-grid">
-            <!-- SHOE MODEL 1 -->
+            
             <div class="product-card">
-                <div class="product-image"><img src="https://unsplash.com" alt="Shoe 1"></div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600" alt="SoleCraft Model One">
+                </div>
                 <div class="product-info">
                     <span class="product-tag">Limited Edition</span>
                     <h2 class="product-title">SoleCraft Model One</h2>
@@ -39,9 +126,11 @@
                     <a href="https://aliveshoes.com" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
                 </div>
             </div>
-            <!-- SHOE MODEL 2 -->
+
             <div class="product-card">
-                <div class="product-image"><img src="https://unsplash.com" alt="Shoe 2"></div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600" alt="SoleCraft Model Two">
+                </div>
                 <div class="product-info">
                     <span class="product-tag">Exclusive Release</span>
                     <h2 class="product-title">SoleCraft Model Two</h2>
@@ -49,7 +138,9 @@
                     <a href="https://aliveshoes.com" target="_blank" class="checkout-redirect-btn">Purchase Pair</a>
                 </div>
             </div>
+
         </div>
     </div>
+
 </body>
 </html>
